@@ -1,0 +1,54 @@
+.body {
+  padding: 10px;
+}
+
+.container {
+  padding: 25px;
+  background-color: #ffaa80;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.outer {
+  padding: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+h1,
+h3,
+h4 {
+  color: white;
+}
+
+/* CSS styling for Dark-mode and light mode toggle */
+
+i.toggler {
+  color: white;
+  float: right;
+  font-size: 20px;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode i.toggler {
+  color: orange;
+}
+
+.dark-mode .container {
+  background-color: white;
+}
+
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode h4 {
+  color: black;
+}
+
+/* End of CSS Styling for dark and light mode toggle */
